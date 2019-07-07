@@ -52,6 +52,7 @@ section, .section {
   display: flex;
   flex-direction: column;
   min-height: 100vh;
+  align-items: center;
 }
 
 .container {
@@ -69,6 +70,11 @@ section, .section {
   @media screen and (max-width: $phoneWidth) {
     max-width: smPhoneWidth;
   }
+}
+
+
+img {
+  width: 300px;
 }
 
 // Modules

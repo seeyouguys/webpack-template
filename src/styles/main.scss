@@ -2,7 +2,7 @@
 @import "utils/vars";
 @import "utils/mixins";
 @import "utils/fonts";
-@import "utils/blocks";
+
 
 html {
   line-height: $mainLineHeight;
@@ -79,4 +79,4 @@ img {
 }
 
 // Modules
-// @import "modules/my-module.scss";
+@import '../blocks/header/header.scss'
